@@ -1,0 +1,136 @@
+/**/
+
+.toolbar{
+    padding: 0;
+    height: 56px;
+    display: flex;
+    align-items: center;
+
+}
+
+.center{
+
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    
+}
+
+#getLocation{
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clear{
+    width: 70px;
+    height: 36px;
+    margin-right: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.input{
+	border: solid 1px green;
+	background: white;
+	border-radius: 3px;
+	height: 30px;
+	margin: 5px;
+	text-indent: 5px;
+	color: black;
+
+}
+
+.input::-webkit-input-placeholder{
+        color: rgb(180,180,180);
+}
+.input::-moz-placeholder{  
+        color: rgb(180,180,180); 
+}
+.input:-ms-input-placeholder{  
+        color: rgb(180,180,180);
+}
+
+.inputname{
+
+}
+
+#content{
+	width: 100%;
+    padding:15px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box;
+}
+
+#content1{
+    width: 100%;
+    margin-left: 15px;
+    
+}
+
+
+#content2{
+	margin-top: 20px;
+}
+
+.inputBox{
+	display: inline-block;
+}
+
+.cdlr,.pbp,.pbcb{
+	display:none;
+}
+
+
+.bottom-bar{
+    height: 44px;
+    border-top: solid 1px rgb(180,180,180);
+}
+
+#buttons{
+
+    position:absolute;
+    bottom: 0px;
+    height: 44px;
+	background-color: rgb(255,255,255);
+	width: 100%;
+	font-size: 15px;
+    font-weight: bold;
+	color: rgb(139,147,157);
+	font-family: メイリオ,Microsoft YaHei,Meiryo,游明朝;
+    display: flex;
+
+}
+
+.footer_button{
+    box-sizing: border-box;
+    height: 36px;
+    margin-top: 4px;
+    color: rgb(30,30,30);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#next{
+
+    
+}
+
+#getQR{
+    border-left:solid 1px rgb(180,180,180);
+}
+
+#delete{
+    display: none;
+}
+
+.pd{
+    margin-top:20px;
+}
